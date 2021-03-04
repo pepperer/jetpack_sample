@@ -44,8 +44,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 model.userTag = "Hello BaseModel" + new Random().nextInt();
 //                tvContent.setText(model.userTag);
-                liveData.setValue();
-                liveData.postValue();
+//                liveData.setValue();
+//                liveData.postValue();
             }
         });
 
